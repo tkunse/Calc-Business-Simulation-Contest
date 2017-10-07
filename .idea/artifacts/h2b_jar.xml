@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="h2b:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/h2b_jar</output-path>
+    <root id="archive" name="h2b.jar">
+      <element id="module-output" name="h2b" />
+    </root>
+  </artifact>
+</component>
