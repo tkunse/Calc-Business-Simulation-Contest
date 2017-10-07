@@ -128,7 +128,7 @@ public class main {
                 Integer totalCost = (int) (developCost * Math.pow(10,4) + productCost * pieces + machineProgressDecline);
                 // FAKE START
                 Integer tmpTotalCost = (int) (totalCost * 0.001);
-                tmpTotalCost = (int) (tmpTotalCost * 1.2);
+                tmpTotalCost = (int) (tmpTotalCost * 1.2);        // The experience during the contest tells me that this ratio is too small. But it should not be a fixed value, in my opinion.
                 totalCost += tmpTotalCost * 1000;
                 // FAKE  END
                 totalCost = (int) (totalCost / (1 - tax * 0.01));
